@@ -9,7 +9,7 @@ import (
 	"net/http"
 
 	"github.com/docker/docker/api/types/swarm"
-	"github.com/toolkits/net/context"
+	"golang.org/x/net/context"
 )
 
 // NoSuchTask is the error returned when a given task does not exist.
