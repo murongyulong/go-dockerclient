@@ -12,7 +12,7 @@ import (
 	"strconv"
 
 	"github.com/docker/docker/api/types/swarm"
-	"golang.org/x/net/context"
+	"github.com/toolkits/net/context"
 )
 
 var (
