@@ -12,7 +12,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/toolkits/net/context"
+	"golang.org/x/net/context"
 )
 
 // Exec is the type representing a `docker exec` instance and containing the
