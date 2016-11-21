@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/toolkits/net/context"
+	"golang.org/x/net/context"
 )
 
 // ErrNetworkAlreadyExists is the error returned by CreateNetwork when the
