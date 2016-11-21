@@ -11,7 +11,7 @@ import (
 	"strconv"
 
 	"github.com/docker/docker/api/types/swarm"
-	"github.com/toolkits/net/context"
+	"golang.org/x/net/context"
 )
 
 // NoSuchNode is the error returned when a given node does not exist.
