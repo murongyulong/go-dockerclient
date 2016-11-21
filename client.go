@@ -34,8 +34,8 @@ import (
 	"github.com/docker/docker/pkg/jsonmessage"
 	"github.com/docker/docker/pkg/stdcopy"
 	"github.com/hashicorp/go-cleanhttp"
-	"golang.org/x/net/context"
-	"golang.org/x/net/context/ctxhttp"
+	"github.com/toolkits/net/context"
+	"github.com/toolkits/net/context/ctxhttp"
 )
 
 const (
