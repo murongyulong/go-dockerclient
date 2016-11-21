@@ -16,7 +16,7 @@ import (
 	"time"
 
 	"github.com/docker/go-units"
-	"golang.org/x/net/context"
+	"github.com/toolkits/net/context"
 )
 
 // ErrContainerAlreadyExists is the error returned by CreateContainer when the
