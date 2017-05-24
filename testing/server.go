@@ -27,7 +27,7 @@ import (
 
 	"github.com/moby/moby/api/types/swarm"
 	"github.com/moby/moby/pkg/stdcopy"
-	"github.com/fsouza/go-dockerclient"
+	"github.com/murongyulong/go-dockerclient"
 	"github.com/gorilla/mux"
 )
 
