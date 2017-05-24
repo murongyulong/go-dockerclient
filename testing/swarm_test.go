@@ -17,7 +17,7 @@ import (
 	"testing"
 
 	"github.com/moby/moby/api/types/swarm"
-	"github.com/fsouza/go-dockerclient"
+	"github.com/murongyulong/go-dockerclient"
 )
 
 func TestSwarmInit(t *testing.T) {
