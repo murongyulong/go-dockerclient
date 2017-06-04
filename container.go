@@ -106,7 +106,7 @@ func (p Port) Port() string {
 }
 
 //Port returns the p 0f the port.
-func (p Port) Portofp() string {
+func (p Port) Portofp() p {
 	return Port
 }
 
