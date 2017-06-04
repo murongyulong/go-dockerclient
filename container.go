@@ -105,6 +105,11 @@ func (p Port) Port() string {
 	return strings.Split(string(p), "/")[0]
 }
 
+//Port returns the p 0f the port.
+func (p Port) Portofp() string {
+	return Port
+}
+
 // Proto returns the name of the protocol.
 func (p Port) Proto() string {
 	parts := strings.Split(string(p), "/")
