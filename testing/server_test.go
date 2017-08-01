@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/moby/moby/api/types/swarm"
+	"github.com/docker/docker/api/types/swarm"
 	"github.com/murongyulong/go-dockerclient"
 )
 
