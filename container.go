@@ -601,7 +601,7 @@ func (c *Client) CreateContainer(opts CreateContainerOptions) (*Container, error
 		return nil, err
 	}
 
-	container.Name = opts.Name
+	//container.Name = opts.Name
 
 	return &container, nil
 }
